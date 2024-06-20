@@ -69,7 +69,7 @@ var (
 )
 
 func getCurrentExchangeRates() (*APIResponse, error) {
-	url := "https://exchange-rate.decubba.com/api/v2/informal/target/cup.json"
+	url := "https://exchange-rate-api.pages.dev/api/v2/informal/target/cup.json"
 	method := "GET"
 
 	client := &http.Client{}
